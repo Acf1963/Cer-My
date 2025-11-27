@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mbolo Yeto</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- Cabeçalho com logótipos -->
+<header style="
+  position: relative;
+  padding: 30px;
+  background: linear-gradient(135deg, #16442d 0%, #1f5c3e 100%);
+">
+  <!-- Botões de idioma no topo à direita -->
+  <div style="
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  ">
+    <button onclick="setLanguage('pt')" style="
+      background: none;
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    ">
+      <img src="img/PT_flag.png" alt="PT" style="width: 24px; height: auto; margin-right: 6px;"> PT
+    </button>
+    <button onclick="setLanguage('en')" style="
+      background: none;
+      border: none;
+      color: #C65D3B;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    ">
+      <img src="img/EN_flag.png" alt="EN" style="width: 24px; height: auto; margin-right: 6px;"> EN
+    </button>
+  </div>
+
+  <!-- Bloco de logótipos -->
+  <div style="display: flex; gap: 40px; justify-content: center;">
+    <!-- Logotipo 1 -->
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+      <img src="../img/my_lg_cer00.png" alt="Sustainable Ceramics Logo" style="max-width: 200px; height: auto;">
+      <p id="logo1-text" style="color: #C65D3B; margin-top: 10px; font-size: 1.5rem;">
+        Tijolos ecológicos, pavés e telhas com responsabilidade ambiental
+      </p>
+    </div>
+    <!-- Logotipo 2 -->
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+      <img src="../img/LgMYCc04.png" alt="Sustainable Construction Logo" style="max-width: 200px; height: auto;">
+      <p id="logo2-text" style="color: #C65D3B; margin-top: 10px; font-size: 1.5rem;">
+        Soluções construtivas com inovação e respeito ao meio ambiente
+      </p>
+    </div>
+  </div>
+</header>
+
+
+
+<section id="mbolo-yeto">
+  <h2 id="titulo"></h2>
+  <p id="texto"></p>
+</section>
+
+<h3 id="tj-titulo"></h3>
+<p id="tj-texto"></p>
+
+<h3 id="civil-titulo"></h3>
+<p id="civil-texto"></p>
+
+<h3 id="modular-titulo"></h3>
+<p id="modular-texto"></p>
+
+<h3 id="identidade-titulo"></h3>
+<p id="identidade-texto"></p>
+<p id="identidade-final"></p>
+
+<section class="beneficios">
+  <h2 id="beneficios-titulo"></h2>
+  <ul id="beneficios-lista"></ul>
+</section>
+
+<!-- Galeria Cerâmica -->
+<section class="galeria">
+  <h2 id="galeria-ceramica-titulo"></h2>
+  <div id="galeria-ceramica"></div>
+</section>
+
+<!-- Galeria Construção Civil -->
+<section class="galeria">
+  <h2 id="galeria-civil-titulo"></h2>
+  <div id="galeria-civil"></div>
+</section>
+
+<!-- Galeria Construção Modular -->
+<section class="galeria">
+  <h2 id="galeria-modular-titulo"></h2>
+  <div id="galeria-modular"></div>
+</section>
+<section class="contato">
+    <h2 id="contact-form-title"></h2>
+<form action="mailto:acfernandes.mboloy@gmail.com" method="post" enctype="text/plain">
+  <label for="nome" id="contact-name-label" style="color:#16442d;"></label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="email" id="contact-email-label" style="color:#16442d;"></label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="mensagem" id="contact-message-label" style="color:#16442d;"></label>
+  <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+  <button type="submit" id="contact-submit"></button>
+</form>
+
+<!-- Localização -->
+<section id="map-section">
+  <h2 id="map-location-title"></h2>
+  <div id="map-container">
+  <iframe
+    src="https://www.google.com/maps?q=Lumbala%20Nguimbo%2C%20Angola&output=embed"
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+  </div>
+</section>
+
+
+<!-- Contato -->
+<section class="contato">
+  <h2 id="contato-titulo"></h2>
+  <p id="contato-local"></p>
+  <p id="contato-tel"></p>
+  <p id="contato-email"></p>
+</section>
+ <footer>
+  <p id="footer-copy"></p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

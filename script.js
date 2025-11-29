@@ -102,14 +102,14 @@ footerCopy: "2025 Cerâmica Sustentável. Todos os direitos reservados."
     ],
     galeriaCivilTitulo: "Civil Construction Gallery",
     galeriaCivil: [
-  { text: "🏠 The Beginning", img: "img_cs_tj_eco/principio.jpg", width: 230 },
-  { text: "🏠 The Middle", img: "img_cs_tj_eco/meio.jpg", width: 200},
-  { text: "🏠 The End", img: "img_cs_tj_eco/fim.jpg", width: 300, height: 150 },
-  { text: "🏠 The Entrance", img: "img_cs_tj_eco/entrada.jpg", width: 200 },
-  { text: "🏠 The Living Room", img: "img_cs_tj_eco/sala.jpg", width: 150,  },
-  { text: "🏠 The Bedroom", img: "img_cs_tj_eco/quarto.jpg", width: 390, },
-  { text: "🏠 The Suite", img: "img_cs_tj_eco/suite.png", width: 160, },
-  { text: "🏠 The Exit", img: "img_cs_tj_eco/saida.jpg", width: 230, }
+  { text: "🏠 The Beginning", img: "Img_cs_tj_eco/principio.jpg", width: 230 },
+  { text: "🏠 The Middle", img: "Img_cs_tj_eco/meio.jpg", width: 200},
+  { text: "🏠 The End", img: "Img_cs_tj_eco/fim.jpg", width: 300, height: 150 },
+  { text: "🏠 The Entrance", img: "Img_cs_tj_eco/entrada.jpg", width: 200 },
+  { text: "🏠 The Living Room", img: "Img_cs_tj_eco/sala.jpg", width: 150,  },
+  { text: "🏠 The Bedroom", img: "Img_cs_tj_eco/quarto.jpg", width: 390, },
+  { text: "🏠 The Suite", img: "Img_cs_tj_eco/suite.png", width: 160, },
+  { text: "🏠 The Exit", img: "Img_cs_tj_eco/saida.jpg", width: 230, }
 ],
     galeriaModularTitulo: "Modular Construction Gallery",
     galeriaModular: [

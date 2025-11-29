@@ -24,7 +24,7 @@ const conteudo = {
     galeriaCeramicaTitulo: "Galeria de Produtos Cerâmicos",
     galeriaCeramica: [
       { text: "🧱 Tijolo Ecológico – 300*150*100 mm", img: "img/tijolo04.png", width: 250 },
-      { text: "🧱 1/2 Tijolo – 150*150*100 mm", img: "img/tijolo02.png", width: 150 }, { text: "🧱 Canaleta – 300*150*100 mm", img: "img/canaleta01.png", width: 250 }, { text: "🧱 Pavé Portugal – 240*120*60 mm", img: "ipave_pt1.png", width: 350 },
+      { text: "🧱 1/2 Tijolo – 150*150*100 mm", img: "img/tijolo02.png", width: 150 }, { text: "🧱 Canaleta – 300*150*100 mm", img: "img/canaleta01.png", width: 250 }, { text: "🧱 Pavé Portugal – 240*120*60 mm", img: "img/pave_pt1.png", width: 350 },
   { text: "🧱 Pavé Hexagonal – 250*60 mm Diagonal", img: "img/pave_hx1.png", width: 350 },
   { text: "🧱 Pavé Retangular – 240*120*60 mm", img: "img/pave_rt1.png", width: 250 },
   { text: "🧱 Telhas em fase de estudo", img: "img/telha1.png", width: 250 }

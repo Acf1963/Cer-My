@@ -31,14 +31,14 @@ const conteudo = {
     ],
     galeriaCivilTitulo: "Galeria de Construção Civil",
     galeriaCivil: [
-      { text: "🏠 O Princípio", img: "img_cs_tj_eco/principio.jpg", width: 230 },
-      { text: "🏠 O Meio", img: "img_cs_tj_eco/meio.jpg", width: 200 },
-      { text: "🏠 O Fim", img: "img_cs_tj_eco/fim.jpg", width: 300, height: 150 },
-      { text: "🏠 A Entrada", img: "img_cs_tj_eco/entrada.jpg", width: 200 },
-      { text: "🏠 A Sala", img: "img_cs_tj_eco/sala.jpg", width: 150, },
-      { text: "🏠 O Quarto", img: "img_cs_tj_eco/quarto.jpg", width: 390, },
-      { text: "🏠 A Suite", img: "img_cs_tj_eco/suite.png", width: 160, },
-      { text: "🏠 A Saída", img: "img_cs_tj_eco/saida.jpg", width: 230, }
+      { text: "🏠 O Princípio", Img: "Img_cs_tj_eco/principio.jpg", width: 230 },
+      { text: "🏠 O Meio", img: "Img_cs_tj_eco/meio.jpg", width: 200 },
+      { text: "🏠 O Fim", img: "Img_cs_tj_eco/fim.jpg", width: 300, height: 150 },
+      { text: "🏠 A Entrada", img: "Img_cs_tj_eco/entrada.jpg", width: 200 },
+      { text: "🏠 A Sala", img: "Img_cs_tj_eco/sala.jpg", width: 150, },
+      { text: "🏠 O Quarto", img: "Img_cs_tj_eco/quarto.jpg", width: 390, },
+      { text: "🏠 A Suite", img: "Img_cs_tj_eco/suite.png", width: 160, },
+      { text: "🏠 A Saída", img: "Img_cs_tj_eco/saida.jpg", width: 230, }
     ],
     galeriaModularTitulo: "Galeria de Construção Modular",
     galeriaModular: [

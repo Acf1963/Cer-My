@@ -31,7 +31,7 @@ const conteudo = {
     ],
     galeriaCivilTitulo: "Galeria de Construção Civil",
     galeriaCivil: [
-      { text: "🏠 O Princípio", img: "Img_cs_tj_eco/principio.jpg", width: 230 },
+      { text: "🏠 O Principio", img: "Img_cs_tj_eco/principio.jpg", width: 230 },
       { text: "🏠 O Meio", img: "Img_cs_tj_eco/meio.jpg", width: 200 },
       { text: "🏠 O Fim", img: "Img_cs_tj_eco/fim.jpg", width: 300, height: 150 },
       { text: "🏠 A Entrada", img: "Img_cs_tj_eco/entrada.jpg", width: 200 },
